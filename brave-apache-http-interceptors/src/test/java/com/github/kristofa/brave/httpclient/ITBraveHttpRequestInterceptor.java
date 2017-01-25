@@ -38,7 +38,7 @@ public class ITBraveHttpRequestInterceptor extends ITHttpClient<CloseableHttpCli
   }
 
   @Override protected void getAsync(CloseableHttpClient client, String pathIncludingQuery) {
-    throw new AssumptionViolatedException("TODO: HttpAsyncClients");
+    throw new AssumptionViolatedException("This is not an async library");
   }
 
   @Override
